@@ -70,10 +70,10 @@ section#cardSection {
     gap: 1rem;
   }
   .card-content h2 {
-    font-size: 16px;
+    font-size: 17px;
   }
   .card-content p {
-    font-size: 10px;
-    line-height: 18px;
+    font-size: 11px;
+    line-height: 20px;
   }
 }
