@@ -2,7 +2,7 @@ export const CardData = [
     {
         id: 1,
         skill: "Interactive Landing Pages",
-        desc: "I design and develop visually stunning, scroll-driven landing pages with smooth animations and creative effects using React, GSAP, and Lenis.",
+        desc: "I design and develop visually stunning, scroll-driven landing pages with smooth animations and creative effects using React, Framer Motion, GSAP, and Lenis.",
     },
     {
         id: 2,
