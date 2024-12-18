@@ -1,0 +1,79 @@
+@import url("https://fonts.cdnfonts.com/css/pixel-sans-serif");
+
+section#cardSection {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 1rem;
+  gap: 2rem;
+}
+.cardContainer {
+  width: 80rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.creative-tilt-card {
+  background: black;
+  width: 26rem;
+  height: 17rem;
+  position: relative;
+  overflow: hidden;
+}
+.card-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 2rem;
+  transition: all 1s ease-out;
+  border: 1px solid rgb(255 255 255 / 20%);
+  color: white;
+  font-family: "Pixel Sans Serif";
+}
+.card-content:hover {
+  border: 1px solid transparent;
+}
+.card-content h2 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+.card-content p {
+  font-size: 12px;
+  font-weight: 100;
+  line-height: 20px;
+  color: #757575;
+}
+
+@media (max-width: 1440px) {
+  section#cardSection {
+    height: 100%;
+  }
+  .cardContainer {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .creative-tilt-card {
+    width: 100%;
+    height: 100%;
+  }
+  .card-content {
+    gap: 1rem;
+  }
+  .card-content h2 {
+    font-size: 16px;
+  }
+  .card-content p {
+    font-size: 10px;
+    line-height: 18px;
+  }
+}
